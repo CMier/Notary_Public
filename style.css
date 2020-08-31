@@ -1,7 +1,6 @@
 * {
     padding: 0;
     margin: 0;
-
 }
 
 nav {
@@ -12,23 +11,20 @@ nav {
 
 .container {
     width: 100%;
-    height: 100vh;
-    
+    height: 100vh;    
 }
 
 ul {
     position: absolute;
     left: 50%;
-    transform: translateX(-50%);
-      
+    transform: translateX(-50%);      
 }
 
 ul li {    
     list-style: none;
     display: inline-block;
     float: left;
-    line-height: 100px;
-    
+    line-height: 100px;  
 }
 
 ul li a {
@@ -36,19 +32,16 @@ ul li a {
     text-decoration: none;
     font-size: 50px;
     font-family: 'Fredoka One', cursive;
-    color: #527d8f;
-    
+    color: #527d8f;    
 }
 
 .featured-photos {
     position: absolute;
-
 }
 
 .featured-photos img {
     width: 100%;
-    height: 100vh;
-      
+    height: 100vh;      
 }
 
 @media(max-width: 1247px) {
@@ -75,3 +68,92 @@ ul li a {
     }
   }
 
+@media(max-width: 598px) {
+    ul li a {
+        font-size: 22px;       
+    }
+  }
+
+@media(max-width: 549px) {
+    ul li a {
+        font-size: 20px;       
+    }
+  }
+
+@media(max-width: 498px) {
+    ul li a {
+        font-size: 19px;       
+    }
+  }
+
+@media(max-width: 473px) {
+    
+
+    ul li a {
+        font-size: 18px;       
+    }
+  }
+
+  @media(max-width: 448px) {
+    
+
+    ul li a {
+        font-size: 17px;       
+    }
+  }
+
+  @media(max-width: 423px) {
+    
+
+    ul li a {
+        font-size: 16px;       
+    }
+  }
+
+  @media(max-width: 398px) {
+    
+
+    ul li a {
+        font-size: 15px;       
+    }
+  }
+
+  @media(max-width: 373px) {
+    
+
+    ul li a {
+        font-size: 14px;       
+    }
+  }
+
+  @media(max-width: 348px) {
+    
+
+    ul li a {
+        font-size: 13px;       
+    }
+  }
+
+  @media(max-width: 323px) {
+    
+
+    ul li a {
+        font-size: 12px;       
+    }
+  }
+
+  @media(max-width: 298px) {
+    
+
+    ul li a {
+        font-size: 11px;       
+    }
+  }
+
+  @media(max-width: 274px) {
+    
+
+    ul li a {
+        font-size: 10px;       
+    }
+  }
