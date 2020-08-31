@@ -157,3 +157,29 @@ ul li a {
         font-size: 10px;       
     }
   }
+
+  @media(max-width: 248px) {
+    
+
+    ul li a {
+        font-size: 9px;       
+    }
+  }
+
+  
+  @media(max-width: 224px) {
+    
+
+    ul li a {
+        font-size: 8px;       
+    }
+  }
+
+  
+  @media(max-width: 199px) {
+    
+
+    ul li a {
+        font-size: 7px;       
+    }
+  }
